@@ -1,0 +1,28 @@
+2024-03-08 03:09:25.975 | INFO     | __main__:main:316 - Args: Namespace(demo='video', experiment_name='yolox_x_mix_det', name=None, path='./videos/palace.mp4', camid=0, save_result=True, exp_file='exps/example/mot/yolox_x_mix_det.py', ckpt='pretrained/bytetrack_x_mot17.pth.tar', device=device(type='cuda'), conf=None, nms=None, tsize=None, fps=30, fp16=True, fuse=True, trt=False, track_thresh=0.5, track_buffer=30, match_thresh=0.8, aspect_ratio_thresh=1.6, min_box_area=10, mot20=False)
+/usr/local/lib/python3.10/dist-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+2024-03-08 03:09:27.698 | INFO     | __main__:main:326 - Model Summary: Params: 99.00M, Gflops: 793.21
+2024-03-08 03:09:27.701 | INFO     | __main__:main:334 - loading checkpoint
+2024-03-08 03:09:28.364 | INFO     | __main__:main:338 - loaded checkpoint done.
+2024-03-08 03:09:28.365 | INFO     | __main__:main:341 - 	Fusing model...
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py:844: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the .grad field to be populated for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations. (Triggered internally at aten/src/ATen/core/TensorBody.h:489.)
+  if param.grad is not None:
+2024-03-08 03:09:29.302 | INFO     | __main__:imageflow_demo:248 - video save_path is ./YOLOX_outputs/yolox_x_mix_det/track_vis/2024_03_08_03_09_29/palace.mp4
+2024-03-08 03:09:29.304 | INFO     | __main__:imageflow_demo:258 - Processing frame 0 (100000.00 fps)
+2024-03-08 03:09:34.347 | INFO     | __main__:imageflow_demo:258 - Processing frame 20 (7.93 fps)
+2024-03-08 03:09:38.466 | INFO     | __main__:imageflow_demo:258 - Processing frame 40 (10.03 fps)
+2024-03-08 03:09:42.209 | INFO     | __main__:imageflow_demo:258 - Processing frame 60 (11.06 fps)
+2024-03-08 03:09:46.291 | INFO     | __main__:imageflow_demo:258 - Processing frame 80 (11.55 fps)
+2024-03-08 03:09:49.862 | INFO     | __main__:imageflow_demo:258 - Processing frame 100 (12.00 fps)
+2024-03-08 03:09:53.406 | INFO     | __main__:imageflow_demo:258 - Processing frame 120 (12.35 fps)
+2024-03-08 03:09:57.459 | INFO     | __main__:imageflow_demo:258 - Processing frame 140 (12.51 fps)
+2024-03-08 03:10:01.032 | INFO     | __main__:imageflow_demo:258 - Processing frame 160 (12.71 fps)
+2024-03-08 03:10:04.591 | INFO     | __main__:imageflow_demo:258 - Processing frame 180 (12.87 fps)
+2024-03-08 03:10:08.701 | INFO     | __main__:imageflow_demo:258 - Processing frame 200 (12.93 fps)
+2024-03-08 03:10:12.277 | INFO     | __main__:imageflow_demo:258 - Processing frame 220 (13.03 fps)
+2024-03-08 03:10:15.841 | INFO     | __main__:imageflow_demo:258 - Processing frame 240 (13.12 fps)
+2024-03-08 03:10:19.887 | INFO     | __main__:imageflow_demo:258 - Processing frame 260 (13.17 fps)
+2024-03-08 03:10:23.591 | INFO     | __main__:imageflow_demo:258 - Processing frame 280 (13.19 fps)
+2024-03-08 03:10:27.142 | INFO     | __main__:imageflow_demo:258 - Processing frame 300 (13.25 fps)
+2024-03-08 03:10:30.842 | INFO     | __main__:imageflow_demo:258 - Processing frame 320 (13.30 fps)
+2024-03-08 03:10:32.787 | INFO     | __main__:imageflow_demo:298 - save results to ./YOLOX_outputs/yolox_x_mix_det/track_vis/2024_03_08_03_09_29.txt
